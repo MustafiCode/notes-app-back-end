@@ -52,7 +52,7 @@ const getNoteByIdHandler = (request, h) => {
       return{
          status: 'success',
          data: {
-            notes,
+            note,
          },
       };
    }
